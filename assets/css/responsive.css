@@ -1,0 +1,724 @@
+@media (max-width: 1918px) {
+  #services-sec .center-block {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #services-sec .center-block .serv-box {
+    width: 550px;
+  }
+  #skills-sec .center-block .skill-box {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1601px) {
+  #hero-section {
+    padding-top: 200px;
+  }
+  #hero-section .center-block {
+    height: 100vh;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h1 {
+    font-size: 35px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h2 {
+    font-size: 50px;
+  }
+  #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
+    font-size: 45px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 350px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    font-size: 17px;
+  }
+  #projects-sec .center-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0px;
+  }
+  footer .center-block .footer-wrap #social-media a .social-icons {
+    font-size: 30px;
+  }
+  footer .center-block .footer-wrap #useful-links a .footer-icons {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1407px) {
+  #skills-sec .center-block .skill-box {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1401px) {
+  #hero-section .center-block .header {
+    width: 100%;
+  }
+  #hero-section .center-block .header #logo img {
+    width: 200px;
+  }
+  #hero-section .center-block .header nav {
+    width: 600px;
+  }
+  #hero-section .center-block .header nav ul li a {
+    font-size: 15px;
+    margin: 0px 10px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h1 {
+    font-size: 30px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h2 {
+    font-size: 45px;
+  }
+  #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
+    font-size: 40px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 280px;
+    margin-top: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    padding: 7px 30px;
+    font-size: 15px;
+  }
+  #hero-section .center-block .wrapper figure {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 150px;
+  }
+  #hero-section .center-block .wrapper figure #hello-txt {
+    width: 120px;
+    height: 120px;
+  }
+  #hero-section .center-block .wrapper figure #hello-txt p {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  #about-sec h1 {
+    font-size: 25px;
+    padding: 25px 0px;
+    width: 35%;
+  }
+  #about-sec h1::before {
+    width: 25%;
+  }
+  #about-sec h1::after {
+    width: 25%;
+  }
+  #about-sec .center-block .my-infos h2 {
+    font-size: 25px;
+  }
+  #about-sec .center-block .my-infos h3 {
+    font-size: 20px;
+  }
+  #about-sec .center-block .my-infos p {
+    font-size: 18px;
+  }
+  #about-sec .center-block figure img {
+    width: 250px;
+  }
+  #services-sec h1 {
+    font-size: 25px;
+    padding: 25px 0px;
+    width: 35%;
+  }
+  #services-sec h1::before {
+    width: 25%;
+  }
+  #services-sec h1::after {
+    width: 25%;
+  }
+  #services-sec .center-block .serv-box {
+    width: 400px;
+  }
+  #skills-sec h1 {
+    font-size: 25px;
+    padding: 25px 0px;
+    width: 35%;
+  }
+  #skills-sec h1::before {
+    width: 25%;
+  }
+  #skills-sec h1::after {
+    width: 25%;
+  }
+  #projects-sec h1 {
+    font-size: 25px;
+    padding: 25px 0px;
+    width: 35%;
+  }
+  #projects-sec h1::before {
+    width: 25%;
+  }
+  #projects-sec h1::after {
+    width: 25%;
+  }
+  #contact-sec h1 {
+    font-size: 25px;
+    padding: 25px 0px;
+    width: 35%;
+  }
+  #contact-sec h1::before {
+    width: 25%;
+  }
+  #contact-sec h1::after {
+    width: 25%;
+  }
+  #contact-sec .center-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact-sec .center-block form {
+    width: 30%;
+    margin-right: 10%;
+  }
+  #contact-sec .center-block form div input {
+    padding: 10px;
+  }
+  #contact-sec .center-block form div:nth-child(3) #service {
+    padding: 10px 5px;
+  }
+  #contact-sec .center-block form div textarea {
+    padding: 10px;
+  }
+  #contact-sec .center-block #map {
+    display: none;
+  }
+  #contact-sec .center-block #large-map {
+    display: block;
+  }
+  #contact-sec .center-block #contact-info {
+    margin-left: 10%;
+  }
+  footer .center-block .footer-wrap #social-media {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1185px) {
+  #skills-sec .center-block .skill-box {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1101px) {
+  #hero-section {
+    height: 70vh;
+    padding-top: 100px;
+  }
+  #hero-section .center-block {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #hero-section .center-block .header {
+    background-color: #23324d;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #hero-section .center-block .header #logo {
+    margin-left: 0px;
+  }
+  #hero-section .center-block .header #logo img {
+    width: 170px;
+  }
+  #hero-section .center-block .header nav {
+    width: 80%;
+    margin-right: 0px;
+  }
+  #hero-section .center-block .header nav ul li a {
+    font-size: 13px;
+  }
+  #hero-section .center-block .wrapper {
+    height: 60vh;
+    background-color: #23324d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero-section .center-block .wrapper #hero-txt {
+    width: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h1 {
+    font-size: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h2 {
+    font-size: 35px;
+  }
+  #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
+    font-size: 30px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 200px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    padding: 5px 10px;
+  }
+  #hero-section .center-block .wrapper figure {
+    display: none;
+  }
+  #about-sec h1 {
+    width: 50%;
+  }
+  #about-sec .center-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about-sec .center-block .my-infos {
+    width: 400px;
+    padding: 15px 0px;
+  }
+  #about-sec .center-block .my-infos .lang {
+    width: 50%;
+  }
+  #about-sec .center-block .my-infos h2 {
+    padding: 5px 0px;
+  }
+  #about-sec .center-block .my-infos h3 {
+    padding: 5px 0px;
+  }
+  #about-sec .center-block .my-infos p {
+    padding: 5px 0px;
+  }
+  #about-sec .center-block figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #about-sec .center-block figure img {
+    margin: 0px auto;
+  }
+  #services-sec h1 {
+    width: 50%;
+  }
+  #skills-sec h1 {
+    width: 50%;
+  }
+  #projects-sec h1 {
+    width: 50%;
+  }
+  #projects-sec .center-block .project {
+    width: 85%;
+  }
+  #projects-sec .center-block .project img {
+    width: 85%;
+  }
+  #projects-sec .center-block .project .site-details {
+    width: 85%;
+    left: 7.5%;
+  }
+  #contact-sec .center-block form {
+    width: 35%;
+    margin-right: 7%;
+  }
+  #contact-sec .center-block #contact-info {
+    margin-left: 7%;
+  }
+  footer .center-block .footer-wrap #useful-links a p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1010px) {
+  #services-sec .center-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #services-sec .center-block .serv-box {
+    width: 70%;
+  }
+  #skills-sec .center-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #skills-sec .center-block .skill-box {
+    width: 70%;
+  }
+  #contact-sec .center-block form div:first-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact-sec .center-block form div:first-child input {
+    width: 100%;
+  }
+  #contact-sec .center-block form div:first-child input:first-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 901px) {
+  #projects-sec .center-block .project .site-details {
+    padding: 5px 0px;
+  }
+  #projects-sec .center-block .project .site-details p {
+    padding: 5px;
+    font-size: 18px;
+  }
+  #contact-sec .center-block form {
+    margin-right: 5%;
+  }
+  #contact-sec .center-block #contact-info {
+    margin-left: 5%;
+  }
+  #contact-sec .center-block #contact-info .info .contact-icon {
+    font-size: 20px;
+  }
+  #contact-sec .center-block #contact-info .info P {
+    font-size: 18px;
+  }
+  footer .center-block .footer-wrap {
+    width: 80%;
+  }
+}
+
+@media (max-width: 801px) {
+  #hero-section {
+    height: 60vh;
+  }
+  #hero-section .center-block {
+    height: 60vh;
+  }
+  #hero-section .center-block .header nav {
+    width: 90%;
+  }
+  #hero-section .center-block .wrapper {
+    height: 50vh;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h1 {
+    font-size: 20px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h2 {
+    font-size: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
+    font-size: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 180px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    font-size: 12px;
+    padding: 3px 7px;
+  }
+  #about-sec h1 {
+    width: 60%;
+  }
+  #services-sec h1 {
+    width: 60%;
+  }
+  #skills-sec h1 {
+    width: 60%;
+  }
+  #projects-sec h1 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 769px) {
+  #hero-section {
+    width: 100%;
+  }
+  #hero-section .center-block {
+    width: 100%;
+  }
+  #hero-section .center-block .wrapper {
+    width: 100%;
+  }
+  #contact-sec .center-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact-sec .center-block form {
+    width: 400px;
+    margin-right: 0px;
+  }
+  #contact-sec .center-block #contact-info {
+    margin: 50px 0px;
+  }
+  #contact-sec .center-block #contact-info .info .contact-icon {
+    font-size: 25px;
+  }
+  #contact-sec .center-block #contact-info .info P {
+    font-size: 20px;
+  }
+  #contact-sec .center-block #large-map {
+    display: none;
+  }
+  #contact-sec .center-block #map {
+    display: block;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  footer .center-block .footer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .center-block .footer-wrap #social-media {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  footer .center-block .footer-wrap #useful-links {
+    width: 50%;
+  }
+  footer .center-block #copyright p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 601px) {
+  #hero-section {
+    height: 60vh;
+  }
+  #hero-section .center-block {
+    height: 60vh;
+  }
+  #hero-section .center-block .header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #hero-section .center-block .header.active {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #hero-section .center-block .header.active nav ul li {
+    background-color: #006ad4;
+  }
+  #hero-section .center-block .header #logo {
+    margin-left: 0;
+  }
+  #hero-section .center-block .header nav {
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+  }
+  #hero-section .center-block .header nav #menu-button {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+  }
+  #hero-section .center-block .header nav #menu-button P {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #hero-section .center-block .header nav #menu-button P img {
+    width: 20px;
+    height: 20px;
+  }
+  #hero-section .center-block .header nav ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #hero-section .center-block .header nav ul li {
+    width: 100%;
+    display: none;
+    background-color: #23324d;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+  }
+  #hero-section .center-block .header nav ul li a {
+    font-size: 20px;
+  }
+  #hero-section .center-block .header nav ul li a:hover {
+    color: black;
+    background-color: transparent;
+  }
+  #hero-section .center-block .header nav:hover ul li {
+    display: block;
+  }
+  #hero-section .center-block .wrapper {
+    height: 50vh;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h1 {
+    font-size: 20px;
+  }
+  #hero-section .center-block .wrapper #hero-txt hgroup h2 {
+    font-size: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
+    font-size: 25px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    margin-top: 15px;
+    width: 160px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  #about-sec h1 {
+    width: 90%;
+  }
+  #about-sec h1::before {
+    width: 30%;
+  }
+  #about-sec h1::after {
+    width: 30%;
+  }
+  #services-sec h1 {
+    width: 90%;
+  }
+  #services-sec h1::before {
+    width: 30%;
+  }
+  #services-sec h1::after {
+    width: 30%;
+  }
+  #services-sec .center-block .serv-box {
+    width: 80%;
+    padding: 5px 10px;
+  }
+  #skills-sec h1 {
+    width: 90%;
+  }
+  #skills-sec h1::before {
+    width: 30%;
+  }
+  #skills-sec h1::after {
+    width: 30%;
+  }
+  #skills-sec .center-block .skill-box {
+    width: 80%;
+    padding: 5px 10px;
+  }
+  #projects-sec h1 {
+    width: 90%;
+  }
+  #projects-sec h1::before {
+    width: 30%;
+  }
+  #projects-sec h1::after {
+    width: 30%;
+  }
+  #contact-sec h1 {
+    width: 90%;
+  }
+  #contact-sec h1::before {
+    width: 30%;
+  }
+  #contact-sec h1::after {
+    width: 30%;
+  }
+  #contact-sec .center-block form {
+    width: 70%;
+  }
+  #contact-sec .center-block form div input {
+    font-size: 13px;
+  }
+  #contact-sec .center-block form div:nth-child(3) #service {
+    font-size: 13px;
+  }
+  #contact-sec .center-block form div textarea {
+    font-size: 13px;
+  }
+  footer .center-block .footer-wrap #social-media {
+    width: 70%;
+  }
+  footer .center-block .footer-wrap #useful-links {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
