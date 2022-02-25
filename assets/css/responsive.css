@@ -722,15 +722,18 @@
   }
 }
 
-@media (max-width: 426px) {
-  #skills-sec .center-block .skill-box {
-    width: 90%;
-  }
+@media (max-width: 600px) {
   #contact-sec .center-block #contact-info {
     margin-bottom: 0px;
   }
   #contact-sec .center-block #map {
     display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  #skills-sec .center-block .skill-box {
+    width: 90%;
   }
   footer .center-block #copyright p {
     font-size: 11px;

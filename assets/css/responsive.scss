@@ -802,14 +802,7 @@
         }
     }
 }
-@media (max-width: 426px){
-    #skills-sec{
-        .center-block{
-            .skill-box{
-                width: 90%;
-            }
-        }
-    }
+@media (max-width: 600px){
     #contact-sec{
         .center-block{
             #contact-info{
@@ -820,6 +813,16 @@
             }
         }
     }
+}
+@media (max-width: 426px){
+    #skills-sec{
+        .center-block{
+            .skill-box{
+                width: 90%;
+            }
+        }
+    }
+   
     footer{
         .center-block{
             #copyright{
