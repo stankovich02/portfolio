@@ -2,22 +2,22 @@
 	<rss version="2.0">
 	<channel>
 			<title>Portfolio | Home</title>
-			<link>https://stankovich02.github.io/mstankovic.github.io/index.html</link>
+			<link>https://stankovich02.github.io/portfolio/</link>
 			<description>Notifications about changes in my portfolio</description>
 
 		<item>
 			<title>About me</title>
-			<link>https://stankovich02.github.io/mstankovic.github.io/index.html#section2</link>
+			<link>https://stankovich02.github.io/portfolio/#about-sec</link>
 			<description>Changes about my biography</description>
 		</item>
 		<item>
 			<title>Services</title>
-			<link>https://stankovich02.github.io/mstankovic.github.io/index.html#section3</link>
+			<link>https://stankovich02.github.io/portfolio/#services-sec</link>
 			<description>Changes about my services</description>
 		</item>
 		<item>
 			<title>Skills</title>
-			<link>https://stankovich02.github.io/mstankovic.github.io/index.html#section4</link>
+			<link>https://stankovich02.github.io/portfolio/#skills-sec</link>
 			<description>Changes about my skills</description>
 		</item>
 	</channel>
