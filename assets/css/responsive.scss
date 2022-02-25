@@ -802,3 +802,95 @@
         }
     }
 }
+@media (max-width: 426px){
+    #skills-sec{
+        .center-block{
+            .skill-box{
+                width: 90%;
+            }
+        }
+    }
+    #contact-sec{
+        .center-block{
+            #contact-info{
+                margin-bottom: 0px;
+            }
+            #map{
+               display: none;
+            }
+        }
+    }
+    footer{
+        .center-block{
+            #copyright{
+                p{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 376px){
+    #hero-section{
+        .center-block{
+            .wrapper{
+                #hero-txt{
+                    hgroup{
+                        h2{
+                            font-size: 20px;
+                        }
+                    }
+                    .dynamic-txt{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .center-block{
+            .footer-wrap{
+                #useful-links{
+                    width: 85%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 321px){
+    #hero-section{
+        .center-block{
+            .wrapper{
+                #hero-txt{
+                    .dynamic-txt{
+                        width: 25ch;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    #services-sec{
+        .center-block{
+            .serv-box{
+                h2{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    #contact-sec{
+        .center-block{
+            #contact-info{
+                .info{
+                    .contact-icon{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
