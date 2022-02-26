@@ -364,6 +364,9 @@
     width: 85%;
     left: 7.5%;
   }
+  #contact-sec h1 {
+    width: 50%;
+  }
   #contact-sec .center-block form {
     width: 35%;
     margin-right: 7%;
@@ -485,6 +488,9 @@
     width: 60%;
   }
   #projects-sec h1 {
+    width: 60%;
+  }
+  #contact-sec h1 {
     width: 60%;
   }
 }
@@ -732,8 +738,81 @@
 }
 
 @media (max-width: 426px) {
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 50%;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a:hover {
+    background: #006ad4;
+  }
+  #about-sec h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+  #about-sec h1::before {
+    width: 25%;
+  }
+  #about-sec h1::after {
+    width: 25%;
+  }
+  #about-sec .center-block .my-infos h3 {
+    font-size: 22px;
+  }
+  #about-sec .center-block .my-infos P {
+    font-size: 20px;
+  }
+  #about-sec .center-block figure img {
+    width: 60%;
+  }
+  #about-sec .center-block figure img:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+  #services-sec h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+  #services-sec h1::before {
+    width: 25%;
+  }
+  #services-sec h1::after {
+    width: 25%;
+  }
+  #services-sec .center-block .serv-box .icon {
+    margin-bottom: 15px;
+  }
+  #services-sec .center-block .serv-box h2 {
+    margin-bottom: 15px;
+  }
+  #services-sec .center-block .serv-box:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
   #skills-sec .center-block .skill-box {
     width: 90%;
+  }
+  #projects-sec h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+  #projects-sec h1::before {
+    width: 25%;
+  }
+  #projects-sec h1::after {
+    width: 25%;
+  }
+  #contact-sec h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+  #contact-sec h1::before {
+    width: 25%;
+  }
+  #contact-sec h1::after {
+    width: 25%;
   }
   footer .center-block #copyright p {
     font-size: 11px;
@@ -756,6 +835,15 @@
   #hero-section .center-block .wrapper #hero-txt .dynamic-txt {
     width: 25ch;
     font-size: 18px;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons {
+    width: 60%;
+  }
+  #hero-section .center-block .wrapper #hero-txt #buttons a {
+    font-size: 11px;
+  }
+  #services-sec .center-block .serv-box {
+    width: 90%;
   }
   #services-sec .center-block .serv-box h2 {
     font-size: 20px;

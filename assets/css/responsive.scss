@@ -41,8 +41,7 @@
                             font-size: 17px;
                         }
                     }
-                }
-                
+                }            
             }
         }
     }
@@ -99,13 +98,10 @@
         }
     
 }
-    #hero-section{
-       
-        .center-block{
-           
+    #hero-section{   
+        .center-block{         
             .header{
                 width: 100%;
-               
                 #logo{
                     img{
                     width: 200px;
@@ -164,7 +160,7 @@
     #about-sec
     {
         h1{
-           @include naslovresponsive();
+           @include naslovresponsive;
         }
         .center-block{
             .my-infos{
@@ -180,12 +176,10 @@
             }
             figure{
                 img{
-                    width: 250px;
-                
+                    width: 250px;         
                 }
             }
         }
-    
     }
     #services-sec{
         h1{
@@ -269,20 +263,17 @@
         .center-block{
             height: 70vh;
             width: 100%;
-            display: flex;
-           
+            display: flex;    
             .header{
                 background-color: #23324d;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                width: 100%;
-                
+                width: 100%;  
                 #logo{
                     margin-left: 0px;
                     img{
-                    width: 170px;
-                   
+                    width: 170px;       
                 }
             }
                 nav{
@@ -319,7 +310,6 @@
                         h2{
                             font-size: 35px;
                         }
-
                     }
                     .dynamic-txt{
                         font-size: 30px;
@@ -399,6 +389,9 @@
         }
     }
     #contact-sec{
+        h1{
+            width: 50%;
+        }
         .center-block{
             form{
                 width: 35%;
@@ -517,8 +510,7 @@
                 }
             }
             .wrapper{
-                height: 50vh;
-                
+                height: 50vh;     
                 #hero-txt{
                     hgroup{
                         h1{
@@ -540,29 +532,34 @@
                     }
                 }
             }
-    }
-}
-#about-sec{
-    h1{
-        width: 60%;
-    }
+        }
+    }   
+    #about-sec{
+        h1{
+            width: 60%;
+        }
 
-}
-#services-sec{
-    h1{
-        width: 60%;
-}
-}
-#skills-sec{
-    h1{
-        width: 60%;
     }
-}
-#projects-sec{
-    h1{
-        width: 60%;
+    #services-sec{
+        h1{
+            width: 60%;
     }
-}
+    }
+    #skills-sec{
+        h1{
+            width: 60%;
+        }
+    }
+    #projects-sec{
+        h1{
+            width: 60%;
+        }
+    }
+    #contact-sec{
+        h1{
+            width: 60%;
+        }
+    }
 }
 @media (max-width: 769px)
 {
@@ -736,12 +733,12 @@
     }
     #about-sec{
         h1{
-            @include naslovresponsive1();
+            @include naslovresponsive1;
     }
     }
     #services-sec{
         h1{
-            @include naslovresponsive1();
+            @include naslovresponsive1;
         }
         .center-block{
             .serv-box{
@@ -752,7 +749,7 @@
     }
     #skills-sec{
         h1{
-            @include naslovresponsive1();
+            @include naslovresponsive1;
         }
         .center-block{
             .skill-box{
@@ -815,6 +812,75 @@
     }
 }
 @media (max-width: 426px){
+    @mixin naslovtelefon{
+    font-size: 20px;
+    width: 95%;
+            &::before{
+                width: 25%;
+            }
+            &::after{
+                width: 25%;
+        }
+    } 
+    #hero-section{
+        .center-block{
+            .wrapper{
+                #hero-txt{
+                    #buttons{
+                        width: 50%;
+                        a{
+                            padding: 5px 10px;
+                            font-size: 12px;
+                            &:hover{
+                                background: #006ad4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about-sec{
+        h1{
+            @include naslovtelefon;
+        }
+        .center-block{
+            .my-infos{
+                h3{
+                    font-size: 22px;
+                }
+                P{
+                    font-size: 20px;
+                }
+            }
+            figure{
+                img{
+                    width: 60%;
+                    &:hover{
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+    #services-sec{
+        h1{
+            @include naslovtelefon;
+        }
+        .center-block{
+            .serv-box{
+                .icon{
+                    margin-bottom: 15px;
+                }
+                h2{
+                    margin-bottom: 15px;
+                }
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
+    }
     #skills-sec{
         .center-block{
             .skill-box{
@@ -822,7 +888,17 @@
             }
         }
     }
-   
+    #projects-sec{
+        h1{
+            @include naslovtelefon;
+        }
+    }
+    #contact-sec{
+        h1{
+            @include naslovtelefon;
+        }
+    }
+    
     footer{
         .center-block{
             #copyright{
@@ -869,6 +945,12 @@
                         width: 25ch;
                         font-size: 18px;
                     }
+                    #buttons{
+                        width: 60%;
+                        a{
+                            font-size: 11px;
+                        }
+                    }
                 }
             }
         }
@@ -876,6 +958,7 @@
     #services-sec{
         .center-block{
             .serv-box{
+                width: 90%;
                 h2{
                     font-size: 20px;
                 }

@@ -289,11 +289,10 @@ a {
 }
 
 #about-sec {
-  background-color: linear-gradient(to right, #e0e0d1, #fff, #e0e0d1);
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -301,7 +300,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 1px;
   padding: 40px 0px 80px 0px;
 }
 
@@ -408,11 +406,10 @@ a {
 }
 
 #services-sec {
-  width: 100%;
-  background-color: #006ad4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -420,8 +417,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 1px;
   padding: 40px 0px 80px 0px;
+  background-color: #006ad4;
 }
 
 #services-sec h1 {
@@ -496,7 +493,6 @@ a {
 #services-sec .center-block .serv-box:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  /*background: transparent;*/
 }
 
 #services-sec .center-block .serv-box .icon {
@@ -514,10 +510,10 @@ a {
 }
 
 #skills-sec {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -625,10 +621,10 @@ a {
 }
 
 #projects-sec {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -636,8 +632,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #006ad4;
   padding: 40px 0px 80px 0px;
+  background-color: #006ad4;
 }
 
 #projects-sec h1 {
@@ -721,10 +717,10 @@ a {
 }
 
 #contact-sec {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -872,6 +868,14 @@ a {
 #contact-sec .center-block #contact-info .info p {
   margin-left: 20px;
   font-size: 25px;
+}
+
+#contact-sec .center-block #contact-info .info:nth-child(2) p {
+  margin-left: 25px;
+}
+
+#contact-sec .center-block #contact-info a {
+  color: #000000;
 }
 
 footer {

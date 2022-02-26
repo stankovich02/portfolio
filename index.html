@@ -5,15 +5,15 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="keywords" content="Portfolio , html, css, responsive, js"/>
-    <meta name="description" content="Marko Stankovic - Web developer | Portfolio"/>
+    <meta name="keywords" content="Marko, developer, website, portfolio"/>
+    <meta name="description" content="Hello everyone! My name is Marko, I am web developer and this is my portfolio website!"/>
     <meta name="author" content="Marko Stankovic"/>
     <!--FavIcon-->
     <link rel="icon" href="assets/images/favicon.ico" />
     <!-- AOS -->
     <link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet" />
     <!--Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
     <script src="https://kit.fontawesome.com/84e70ce85b.js" crossorigin="anonymous"></script>
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -21,17 +21,17 @@
 
     <title>Marko Stankovic | Portfolio</title>
 </head>
-<body>
-    
+<body> 
+    <!--hero section-->
     <section id="hero-section">
         <div class="center-block">
             <header class="header" data-aos="fade-down">
                 <div id="logo">
-                <a href="index.html"><img src="assets/images/logo.png" alt="logo"/></a>
+                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"/></a>
                 </div>
                 <nav class="nav-bar">
                    <div id="menu-button">
-                       <img src="assets/images/outline_menu_white_24dp.png" alt="ham-bars"/>
+                       <img src="assets/images/menu-bars.png" alt="menu-bars"/>
                    </div>
                     <ul class="mainMenu">
                         <li><a href="#">Home</a></li>
@@ -63,13 +63,13 @@
                     <div id="hello-txt">
                         <p>Hi! Check out my portfolio site down below!</p>
                     </div>
-                    <img src="assets/images/emoji.png" alt="my-emoji"/>
-                   
+                    <img src="assets/images/emoji.png" alt="my-emoji"/>                  
                 </figure>
             </div>
         </div>
     </section>
-    
+
+   <!--about section-->
     <section id="about-sec">
         <h1>ABOUT ME</h1>
         <div class="center-block">
@@ -86,12 +86,9 @@
                 <h3>E-mail:</h3>
                 <p>marko&period;stankovic&period;41&period;21&#64;ict&period;edu&period;rs</p>
             </aside>
-            <figure>
-                
-                <img src="assets/images/about-pic.jpg" alt="pic-with-me"/>
-                
-            </figure>
-           
+            <figure>               
+                <img src="assets/images/about-pic.jpg" alt="pic-with-me"/>               
+            </figure>          
             <aside class="my-infos">
                 <h2>Education:</h2>
                 <h3>2017-2021</h3>
@@ -104,6 +101,8 @@
             </aside>
         </div>
     </section>
+
+    <!--services section-->
     <section id="services-sec">
         <h1>
             Services
@@ -124,7 +123,6 @@
                 <i class="zmdi zmdi-movie-alt icon"></i>
                 <h2>Video Editing</h2>
                 <p>Making some of the best videos or movies that You have ever seen. Give me a few short video clips, and I'll make magic. Programs in which I am working are mostly Sony Vegas and Wondershare Filmora.</p>
-
             </div>
             <div class="serv-box">
                 <i class="zmdi zmdi-collection-image icon"></i>
@@ -133,6 +131,8 @@
             </div>
         </div>
     </section>
+
+     <!--skills section-->
     <section id="skills-sec">
         <h1>
             Skills
@@ -160,34 +160,36 @@
             </div>
         </div>
     </section>
+
+     <!--projects section-->
     <section id="projects-sec">
         <h1>
             Projects
         </h1>
         <div class="center-block">
             <div class="project">
-                <a href="#projetcs-sec"><img src="assets/images/sajt 1.jpg" alt="img1"/></a>
+                <a href="#projetcs-sec"><img src="assets/images/befit-gym.jpg" alt="project-befit-gym"/></a>
                 <div class="site-details">
                     <p>BEFIT Gym</p>
                     <p>HTML | CSS | Bootstrap</p>
                 </div>
             </div>
             <div class="project">
-                <a href="#projetcs-sec"><img src="assets/images/sajt 2.jpg" alt="img2"/></a>
+                <a href="#projetcs-sec"><img src="assets/images/laptop-service.jpg" alt="project-laptop-service"/></a>
                 <div class="site-details">
                     <p>Laptop Service</p>
                     <p>HTML | CSS | Resposnive</p>
                 </div>
             </div>
             <div class="project">
-                <a href="#projetcs-sec"><img src="assets/images/sajt 3.jpg" alt="img3"/></a>
+                <a href="#projetcs-sec"><img src="assets/images/autowash-service.jpg" alt="project-autowash-service"/></a>
                 <div class="site-details">
                     <p>AutoWash Service</p>
                     <p>HTML | CSS | Bootstrap</p>
                 </div>
             </div>
             <div class="project">
-                <a href="#projetcs-sec"><img src="assets/images/sajt 4.jpg" alt="img4"/></a>
+                <a href="#projetcs-sec"><img src="assets/images/training-studio.jpg" alt="project-training-studio"/></a>
                 <div class="site-details">
                     <p>Training Studio</p>
                     <p>HTML | CSS | JavaScript</p>
@@ -195,12 +197,14 @@
             </div>
         </div>
     </section>
+
+    <!--contact section-->
     <section id="contact-sec">
         <h1>
             Contact me
         </h1>
         <div class="center-block">
-            <form action="contact-php" method="post">
+            <form action="" method="post">
                 <div>
                     <input type="name" name="ime" id="ime" placeholder="First name" required/>
                     <input type="name" name="prezime" id="prezime" placeholder="Last name" required/>
@@ -218,7 +222,7 @@
                     </select>
                 </div>
                 <div>
-                    <textarea rows="10" cols="20" placeholder="Type Your message here"></textarea>
+                    <textarea rows="10" cols="20" name="textarea" id="textarea" placeholder="Type Your message here"></textarea>
                 </div>
                 <div>
                     <input type="submit" name="submit" value="submit" id="submit"/>
@@ -227,13 +231,15 @@
             </form>
             <p id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.7965774376107!2d20.981824315749165!3d44.74416678921775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47508dd2acf92b31%3A0xfd712ea62c287d6f!2zUGVzbmnEjWthIDgsINCa0L7QstC40L0!5e0!3m2!1ssr!2srs!4v1645794438871!5m2!1ssr!2srs" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
             <div id="contact-info">
-                <div class="info"><i class="fa-solid fa-phone contact-icon"></i><p>+381616554125</p></div>
+                <a href="tel:+381616554125"><div class="info"><i class="fa-solid fa-phone contact-icon"></i><p>+381616554125</p></div></a>
                 <div class="info"><i class="fa-solid fa-location-dot  contact-icon"></i><p>Pesnicka 8, Kovin</p></div>
-                <div class="info"><i class="fa-solid fa-envelope  contact-icon"></i><p>marko&period;stankovic&period;41&period;21&#64;ict&period;edu&period;rs</p></div>
+                <a href="mailto:marko.stankovic.41.21@ict.edu.rs"><div class="info"><i class="fa-solid fa-envelope  contact-icon"></i><p>marko&period;stankovic&period;41&period;21&#64;ict&period;edu&period;rs</p></div></a>
             </div>
             <p id="large-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.7965774426348!2d20.981818951183026!3d44.74416678911526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47508dd2acf92b31%3A0xfd712ea62c287d6f!2zUGVzbmnEjWthIDgsINCa0L7QstC40L0!5e0!3m2!1ssr!2srs!4v1645819954309!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
         </div>
     </section>
+
+    <!--footer-->
     <footer>
         <div class="center-block">
             <div class="footer-wrap">
@@ -251,42 +257,39 @@
                     <i class="fa-brands fa-github-square social-icons"></i>
                 </a>
             </div>
-            <div id="useful-links">
-               
+            <div id="useful-links">             
                 <a href="sitemap.xml" target="_blank">
                     <i class="fa-solid fa-sitemap footer-icons footer-icons"></i>
                     <p>Sitemap</p>
                 </a>
                 <a href="rss.xml" target="_blank">
-                <i class="fa-solid fa-rss footer-icons footer-icons"></i>
-                <p>Rss</p>
+                    <i class="fa-solid fa-rss footer-icons footer-icons"></i>
+                    <p>Rss</p>
                 </a>                            
                 <a href="assets/css/style.css" target="_blank">
-                <i class="fa-brands fa-css3 footer-icons footer-icons"></i>
-                <p>Original CSS</p>
+                    <i class="fa-brands fa-css3 footer-icons footer-icons"></i>
+                    <p>Original CSS</p>
                 </a>                             
                 <a href="assets/css/style.scss" target="_blank">
-                <i class="fa-brands fa-sass footer-icons footer-icons"></i>
-                <p>SCSS</p>
-            </a>
+                    <i class="fa-brands fa-sass footer-icons footer-icons"></i>
+                    <p>SCSS</p>
+                </a>
                
-                    <a href="assets/css/responsive.css"  target="_blank">
+                <a href="assets/css/responsive.css"  target="_blank">
                     <i class="fa-brands fa-css3 footer-icons footer-icons"></i>
                     <p>Responsive CSS</p>
-                    </a>
-                   
+                </a>                  
                 </div>
-            </div>
-        
+            </div>       
             <div id="copyright">
                 <p>Copyright &copy; 2022 Marko Stankovic 41/21&period; All Rights Reserved&period;</p>
             </div>
         </div>
     </footer>
+    <!--Scripts-->
     <script src = "https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
 </body>
-
 </html>

@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 $crna: #000000;
 $bela: #ffffff;
-$crvena: #006ad4;
-$plava: #23324d;
+$plava: #006ad4;
+$heroplava: #23324d;
 $zelena: #375350;
 $bela2: #f7f5f1;
 $krem: #e29a75;
@@ -17,7 +17,7 @@ $fontJosefin: 'Josefin Sans', sans-serif;
 } 
 @mixin about-podnaslov{
     font-size: 28px;
-    color: $crvena;
+    color: $plava;
     font-weight: bold;
 
 }
@@ -35,7 +35,7 @@ $fontJosefin: 'Josefin Sans', sans-serif;
             display: inline-block;
             width: 30%;
             height: 4px;
-            background-color: $crvena;
+            background-color: $plava;
             border-radius: 15px;
     }
     &::after{
@@ -43,9 +43,17 @@ $fontJosefin: 'Josefin Sans', sans-serif;
             display: inline-block;
             width: 30%;
             height: 4px;
-            background-color: $crvena;
+            background-color: $plava;
             border-radius: 15px;
     }
+}
+@mixin section-container ($width,$flex-direction,$align-items,$padding)
+{
+    display: flex;
+    width: $width;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    padding: $padding;
 }
 @keyframes typing{
     from{
@@ -70,8 +78,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $crvena;
-    
+    background: $plava;
     border-radius: 10px;
 }
 body{
@@ -90,7 +97,7 @@ a{
 #hero-section{
     padding-top: 300px;
     width: 100%;
-    background-color: $plava;
+    background-color: $heroplava;
     height: 1000px;
     .center-block{
         width: 90%;
@@ -98,8 +105,7 @@ a{
         margin: 0px auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        
+        justify-content: space-between;       
         .header{
             position: fixed;
             top: 0;
@@ -123,12 +129,11 @@ a{
                 justify-content: space-around;
                 align-items: center;
                 z-index: 100;
-                background: $crvena;
+                background: $plava;
                 transition: all 1s;
                 nav{
                     margin-right: 0px;
                 }
-
             }
             #logo{
                 margin-left: 50px;
@@ -162,14 +167,12 @@ a{
         .wrapper{
             width: 100%;
             display: flex;
-            justify-content: space-between;
-           
+            justify-content: space-between;           
             #hero-txt{
                 width: 800px;
                 height: 500px;
                 display: flex;
-                flex-direction: column;
-                
+                flex-direction: column;               
                 hgroup{
                     display: flex;
                     flex-direction: column;
@@ -185,17 +188,15 @@ a{
                 }
                 .dynamic-txt{
                     width: 25ch;
-                    color: $crvena;
+                    color: $plava;
                     animation: typing 5s steps(50), blink .5s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
-                    border-right: 2px solid $crvena;
+                    border-right: 2px solid $plava;
                     font: {
                         size: 50px;
                         weight: bold;
                     }
-                    
-
                 }
                 #buttons{
                     width: 350px;
@@ -207,31 +208,30 @@ a{
                         font-size: 18px;
                         font-weight: bold;
                         letter-spacing: 2px;
-                        background-color: $crvena;
+                        background-color: $plava;
                         border: 2px solid transparent;
                         border-radius: 20px;
-                        box-shadow: inset 0 0 0 50px $crvena;
+                        box-shadow: inset 0 0 0 50px $plava;
                         transition: ease-out 0.2s;
                         &:hover{
                             background: transparent;
-                            box-shadow: inset 0 0 0 0 $crvena;
-                            border-color: $crvena;
+                            box-shadow: inset 0 0 0 0 $plava;
+                            border-color: $plava;
                             cursor: grab;
                         }
                     }
                 }
             }
-            figure{
-               
+            figure{              
                 width: 450px;
                 height: 550px;
                 display: flex;
                 justify-content: center;
                 align-self: flex-end;
-               #hello-txt{
+                #hello-txt{
                    width: 170px;
                    height: 170px;
-                   background-color: $crvena;
+                   background-color: $plava;
                    border-radius: 50%;
                    font-family: 'Architects Daughter', cursive;
                    letter-spacing: 1px;
@@ -248,18 +248,10 @@ a{
     }
 }
 #about-sec{
-    background-color: linear-gradient(to right,#e0e0d1,#fff,#e0e0d1);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    letter-spacing: 1px;
-    padding: 40px 0px 80px 0px;
-    
+    @include section-container(100%,column,center,40px 0px 80px 0px);
     h1{
         @include naslovsekcija();
     }
-
     .center-block{
         width: 90%;
         margin: 0px auto;
@@ -284,29 +276,21 @@ a{
             }
         }
         figure{
-            img{
-                
+            img{               
                 transition: 0.5s;
                 filter:brightness(0.8);
                 filter: drop-shadow(8px 10px 12px $crna);
-                border-radius: 25px 5px 25px 5px;
-                
+                border-radius: 25px 5px 25px 5px;              
                 &:hover{
                     transform: scale(1.05);
-                }
-                
+                }               
             }
         }
     }
 }
 #services-sec{
-    width: 100%;
-    background-color: $crvena;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    letter-spacing: 1px;
-    padding: 40px 0px 80px 0px;
+    @include section-container(100%,column,center,40px 0px 80px 0px);
+    background-color: $plava;
     h1{
         font-size: 30px;
         font-weight: bold;
@@ -352,7 +336,6 @@ a{
             margin: 15px;
             &:hover{
                 transform: scale(1.05);
-                /*background: transparent;*/
             }
             .icon{
             font-size: 70px;
@@ -363,19 +346,13 @@ a{
                 margin-bottom: 30px;
             }
             p{
-                font-size: 18px;
-                
+                font-size: 18px;              
             }
         }
-
     }
 }
 #skills-sec{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0px 80px 0px;
+    @include section-container(100%,column,center,40px 0px 80px 0px);
     h1{
         @include naslovsekcija();
     }
@@ -419,28 +396,21 @@ a{
             .skill-icon{
                 font-size: 100px;
                 background: transparent;
-                margin-bottom: 30px;
-                
+                margin-bottom: 30px;               
             }
             h2{
                 font-size: 25px;
                 margin-bottom: 15px;
             }
             p{
-                font-size: 20px;
-               
+                font-size: 20px;             
             }
         }
-
     }  
 }
 #projects-sec{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: $crvena;
-    padding: 40px 0px 80px 0px;
+    @include section-container(100%,column,center,40px 0px 80px 0px);
+    background-color: $plava;
     h1{
         font-size: 30px;
         font-weight: bold;
@@ -465,8 +435,7 @@ a{
                 height: 4px;
                 background-color: $bela2;
                 border-radius: 15px;
-        }
-    
+        }   
     }
     .center-block{
         width: 90%;
@@ -503,16 +472,11 @@ a{
                     display: block;
                 }
             }
-        }
-        
+        }        
     }
 }
 #contact-sec{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0px 80px 0px;
+    @include section-container(100%,column,center,40px 0px 80px 0px);
     background-color: #d1d1d1;
     h1{
         @include naslovsekcija()
@@ -553,7 +517,7 @@ a{
                     border-radius: 5px;
                     border: 2px solid $crna;
                     font-size: 15px;          
-                }
+                    }
                 }
                 &:last-child{
                     input{
@@ -570,122 +534,126 @@ a{
                     font-size: 15px;       
                 }
             }
-                }
-            #large-map{
-                display: none;
-            }
-                
-            
-            #contact-info{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                height: 150px;
-                .info{
-                    display: flex;
-                    align-items: center;
-                    .contact-icon{
-                        font-size: 25px;
-                    }
-                    p{
-                        margin-left: 20px;
-                        font-size: 25px;
-                    }
-                }
-            }
         }
-        }
-        footer{
-            width: 100%;
-            padding-top: 20px;
-            background-color: $crna;
-            color: $bela2;
-            .center-block{
-                width: 100%;
+        #large-map{
+            display: none;
+        }   
+        #contact-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 150px;    
+            .info{
                 display: flex;
-                flex-direction: column;
                 align-items: center;
-                .footer-wrap{
-                padding-top: 30px;
-                margin-bottom: 100px;
-                width: 70%;
+                .contact-icon{
+                    font-size: 25px;
+                }
+                p{
+                    margin-left: 20px;
+                    font-size: 25px;
+                }
+                &:nth-child(2){
+                    p{
+                        margin-left: 25px;
+                    }
+                }    
+            }
+            a{
+                color: $crna;
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    padding-top: 20px;
+    background-color: $crna;
+    color: $bela2;
+    .center-block{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer-wrap{
+        padding-top: 30px;
+        margin-bottom: 100px;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        #social-media{
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+            a{
                 display: flex;
+                align-items: center;
+                .social-icons{
+                    font-size: 40px;
+                }
+                &:first-child:hover{
+                    color: #025fa6;
+                }
+                &:nth-child(2):hover{
+                    color: #b804b5;
+                }
+                &:nth-child(3):hover{
+                    color: #273575;
+                }
+                &:last-child:hover{
+                    color: #4b00b5;
+                }
+            }
+        }
+        #useful-links{
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            a{                       
+                display: flex;
+                flex-direction: column;
                 justify-content: space-between;
-                align-items: flex-start;
-                #social-media{
-                    width: 20%;
-                    display: flex;
-                    justify-content: space-around;
-                    a{
-                        display: flex;
-                        align-items: center;
-                        .social-icons{
-                            font-size: 40px;
-                        }
-                        &:first-child:hover{
-                            color: #025fa6;
-                        }
-                        &:nth-child(2):hover{
-                            color: #b804b5;
-                        }
-                        &:nth-child(3):hover{
-                            color: #273575;
-                        }
-                        &:last-child:hover{
-                            color: #4b00b5;
-                        }
+                align-items: center;
+                position: relative;
+                z-index: 10;
+                .footer-icons{
+                    font-size: 40px;
+                    &:hover{
+                        color: $plava;
                     }
+                }          
+                P{
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                    background-color: #3f4142;
+                    padding: 10px;
+                    margin-top: 15px; 
+                    position: absolute;
+                    bottom: -70px;
+                    display: none;                 
                 }
-                #useful-links{
-                    display: flex;
-                    width: 40%;
-                    justify-content: space-between;
-                    a{                       
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-items: center;
-                        position: relative;
-                        z-index: 10;
-                        .footer-icons{
-                            font-size: 40px;
-                            &:hover{
-                                color: $crvena;
-                            }
-                        }
-                       
-                        P{
-                            font-size: 17px;
-                            text-transform: uppercase;
-                            margin-left: 10px;
-                            background-color: #3f4142;
-                            padding: 10px;
-                            margin-top: 15px; 
-                            position: absolute;
-                            bottom: -70px;
-                           display: none;
-                            
-                        }
-                        &:hover{
-                            p{
-                                display: inline-flex;
-                            }
-                        }
-                    }
-                }
-                }
-                #copyright{
-                    text-align: center;
-                    height: 50px;
-                    display: flex;
-                    align-items: center;
-                    P{
-                        font-size: 18px;
-                        font-weight: bold;
+                &:hover{
+                    p{
+                        display: inline-flex;
                     }
                 }
             }
         }
-            
+    }
+        #copyright{
+            text-align: center;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            P{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+    
         
 
