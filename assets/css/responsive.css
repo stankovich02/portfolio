@@ -791,8 +791,24 @@
     -webkit-transform: none;
             transform: none;
   }
+  #skills-sec h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+  #skills-sec h1::before {
+    width: 25%;
+  }
+  #skills-sec h1::after {
+    width: 25%;
+  }
   #skills-sec .center-block .skill-box {
     width: 90%;
+  }
+  #skills-sec .center-block .skill-box h2 {
+    font-size: 20px;
+  }
+  #skills-sec .center-block .skill-box .skill-icon {
+    font-size: 80px;
   }
   #projects-sec h1 {
     font-size: 20px;
@@ -847,6 +863,10 @@
   }
   #services-sec .center-block .serv-box h2 {
     font-size: 20px;
+  }
+  #contact-sec .center-block #contact-info {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   #contact-sec .center-block #contact-info .info .contact-icon {
     font-size: 15px;

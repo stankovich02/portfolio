@@ -882,9 +882,18 @@
         }
     }
     #skills-sec{
+        h1{
+            @include naslovtelefon;
+        }
         .center-block{
             .skill-box{
                 width: 90%;
+                h2{
+                    font-size: 20px;
+                }
+                .skill-icon{
+                    font-size: 80px;
+                }
             }
         }
     }
@@ -968,6 +977,7 @@
     #contact-sec{
         .center-block{
             #contact-info{
+                justify-content: space-around;
                 .info{
                     .contact-icon{
                         font-size: 15px;

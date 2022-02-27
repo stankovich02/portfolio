@@ -325,7 +325,7 @@ a{
         flex-wrap: wrap;
         .serv-box{
             width: 400px;
-            background-color: $bela2;
+            background-color: $bela;
             border-radius: 20px;
             padding: 30px 20px;
             display: flex;
@@ -497,7 +497,7 @@ a{
                 input{
                     padding: 15px;
                     border-radius: 5px;
-                    border: 2px solid $crna;
+                    border: transparent;
                     font-size: 15px;                   
                 }
                 &:first-child{
@@ -515,11 +515,12 @@ a{
                     width: 100%;
                     padding: 15px 10px;
                     border-radius: 5px;
-                    border: 2px solid $crna;
+                    border: transparent;
                     font-size: 15px;          
                     }
                 }
                 &:last-child{
+                    justify-content: center;
                     input{
                         width: 45%;
                         text-transform: uppercase;
@@ -529,7 +530,7 @@ a{
                 textarea{
                     width: 100%;
                     border-radius: 5px;
-                    border: 2px solid $crna;
+                    border: transparent;
                     padding: 15px;
                     font-size: 15px;       
                 }

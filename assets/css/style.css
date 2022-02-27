@@ -471,7 +471,7 @@ a {
 
 #services-sec .center-block .serv-box {
   width: 400px;
-  background-color: #f7f5f1;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 30px 20px;
   display: -webkit-box;
@@ -800,7 +800,7 @@ a {
 #contact-sec .center-block form div input {
   padding: 15px;
   border-radius: 5px;
-  border: 2px solid #000000;
+  border: transparent;
   font-size: 15px;
 }
 
@@ -816,8 +816,14 @@ a {
   width: 100%;
   padding: 15px 10px;
   border-radius: 5px;
-  border: 2px solid #000000;
+  border: transparent;
   font-size: 15px;
+}
+
+#contact-sec .center-block form div:last-child {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contact-sec .center-block form div:last-child input {
@@ -829,7 +835,7 @@ a {
 #contact-sec .center-block form div textarea {
   width: 100%;
   border-radius: 5px;
-  border: 2px solid #000000;
+  border: transparent;
   padding: 15px;
   font-size: 15px;
 }
