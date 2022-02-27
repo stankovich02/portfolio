@@ -5,7 +5,7 @@
     $service = $_POST['service'];
     $message = $_POST['message'];
 
-    $email_from = 'stankovichportfolio@gmail.com';
+    $email_from = 'nindzamindza02@gmail.com';
     $email_subject = "New Form Submission";
     $email_body = "User Name: $firstname $lastname.\n".
                     "User Email: $visitor_email.\n".
