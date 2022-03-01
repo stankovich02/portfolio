@@ -939,7 +939,7 @@ footer .center-block .footer-wrap #social-media a {
 }
 
 footer .center-block .footer-wrap #social-media a .social-icons {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 footer .center-block .footer-wrap #social-media a:first-child:hover {
@@ -987,7 +987,7 @@ footer .center-block .footer-wrap #useful-links a {
 }
 
 footer .center-block .footer-wrap #useful-links a .footer-icons {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 footer .center-block .footer-wrap #useful-links a .footer-icons:hover {
@@ -995,14 +995,14 @@ footer .center-block .footer-wrap #useful-links a .footer-icons:hover {
 }
 
 footer .center-block .footer-wrap #useful-links a P {
-  font-size: 17px;
+  font-size: 15px;
   text-transform: uppercase;
   margin-left: 10px;
   background-color: #3f4142;
-  padding: 10px;
+  padding: 5px;
   margin-top: 15px;
   position: absolute;
-  bottom: -70px;
+  bottom: -50px;
   display: none;
 }
 

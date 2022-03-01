@@ -238,8 +238,12 @@
     footer{
         .center-block{
             .footer-wrap{
+                width: 85%;
                 #social-media{
                     width: 30%;
+                }
+                #useful-links{
+                    width: 50%;
                 }
             }
         }
@@ -609,7 +613,7 @@
                     margin-bottom: 50px;
                 }
                 #useful-links{
-                    width: 50%;
+                    width: 80%;
                 }
             }
             #copyright{
@@ -784,6 +788,12 @@
                     }
                 }
             }
+            #contact-info{
+                margin-bottom: 0px;
+            }
+            #map{
+                display: none;
+            }
         }
     }
     footer{
@@ -791,35 +801,33 @@
             .footer-wrap{
                 #social-media{
                     width: 70%;
+                    a{
+                        .social-icons{
+                            font-size: 25px;
+                        }
+                    }
                 }
                 #useful-links{
-                    width: 70%;
+                    width: 85%;
+                    a{
+                        .footer-icons{
+                            font-size: 25px;
+                        }
+                    }
                 }
-            }
-        }
-    }
-}
-@media (max-width: 600px){
-    #contact-sec{
-        .center-block{
-            #contact-info{
-                margin-bottom: 0px;
-            }
-            #map{
-               display: none;
             }
         }
     }
 }
 @media (max-width: 426px){
     @mixin naslovtelefon{
-    font-size: 20px;
+    font-size: 25px;
     width: 95%;
             &::before{
-                width: 25%;
+                width: 20%;
             }
             &::after{
-                width: 25%;
+                width: 20%;
         }
     } 
     #hero-section{
@@ -871,8 +879,10 @@
             .serv-box{
                 .icon{
                     margin-bottom: 15px;
+                    font-size: 50px;
                 }
                 h2{
+                    font-size: 22px;
                     margin-bottom: 15px;
                 }
                 &:hover{
@@ -910,6 +920,9 @@
     
     footer{
         .center-block{
+           .footer-wrap{
+               width: 95%;
+           }
             #copyright{
                 p{
                     font-size: 11px;

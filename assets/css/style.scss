@@ -591,7 +591,7 @@ footer{
                 display: flex;
                 align-items: center;
                 .social-icons{
-                    font-size: 40px;
+                    font-size: 30px;
                 }
                 &:first-child:hover{
                     color: #025fa6;
@@ -619,20 +619,20 @@ footer{
                 position: relative;
                 z-index: 10;
                 .footer-icons{
-                    font-size: 40px;
+                    font-size: 30px;
                     &:hover{
                         color: $plava;
                     }
                 }          
                 P{
-                    font-size: 17px;
+                    font-size: 15px;
                     text-transform: uppercase;
                     margin-left: 10px;
                     background-color: #3f4142;
-                    padding: 10px;
+                    padding: 5px;
                     margin-top: 15px; 
                     position: absolute;
-                    bottom: -70px;
+                    bottom: -50px;
                     display: none;                 
                 }
                 &:hover{
