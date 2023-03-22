@@ -279,8 +279,8 @@ a{
             img{               
                 transition: 0.5s;
                 filter:brightness(0.8);
-                filter: drop-shadow(8px 10px 12px $crna);
-                border-radius: 25px 5px 25px 5px;              
+                filter: drop-shadow(3px 7px 9px $crna);
+                border-radius: 25px;              
                 &:hover{
                     transform: scale(1.05);
                 }               
